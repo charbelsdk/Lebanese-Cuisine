@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.androidProject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:5:22-76
+12
+13    <application
+13-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:7:5-63:19
+14        android:allowBackup="true"
+14-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\4b53245c3016ced9d64c106097ee6da0\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.android.androidProject.VerifyOTPActivity" />
+23-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:14:9-54
+23-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:14:19-52
+24        <activity android:name="com.example.android.androidProject.SendOTPActvity" >
+24-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:15:9-21:20
+24-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:15:19-49
+25            <intent-filter>
+25-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.android.androidProject.foodDescription" >
+31-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:22:9-26:20
+31-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:22:19-50
+32            <meta-data
+32-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:23:13-25:83
+33                android:name="android.support.PARENT_ACTIVITY"
+33-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:24:17-63
+34                android:value="com.example.android.androidProject.MainActivity" />
+34-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:25:17-80
+35        </activity>
+36
+37        <receiver
+37-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:28:9-36:20
+38            android:name="com.example.android.androidProject.MyReceiver"
+38-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:29:13-39
+39            android:enabled="true"
+39-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:30:13-35
+40            android:exported="true" >
+40-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:31:13-36
+41            <intent-filter>
+41-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:32:13-35:29
+42                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+42-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:33:17-79
+42-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:33:25-76
+43                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+43-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:34:17-78
+43-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:34:25-75
+44            </intent-filter>
+45        </receiver>
+46
+47        <activity
+47-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:38:9-45:20
+48            android:name="com.example.android.androidProject.SettingsActivity"
+48-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:39:13-45
+49            android:label="@string/title_activity_settings"
+49-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:40:13-60
+50            android:parentActivityName="com.example.android.androidProject.MainActivity" >
+50-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:41:13-55
+51            <meta-data
+51-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:23:13-25:83
+52                android:name="android.support.PARENT_ACTIVITY"
+52-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:24:17-63
+53                android:value="com.example.android.androidProject.MainActivity" />
+53-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:25:17-80
+54        </activity>
+55        <activity
+55-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:46:9-52:20
+56            android:name="com.example.android.androidProject.MainActivity"
+56-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:47:13-41
+57            android:label="@string/app_name"
+57-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:48:13-45
+58            android:theme="@style/AppTheme.NoActionBar" >
+58-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:49:13-56
+59        </activity>
+60        <activity
+60-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:53:9-60:20
+61            android:name="com.example.android.androidProject.SubscribeActivity"
+61-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:54:13-46
+62            android:label="@string/title_activity_order"
+62-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:55:13-57
+63            android:parentActivityName="com.example.android.androidProject.MainActivity" >
+63-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:56:13-55
+64            <meta-data
+64-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:23:13-25:83
+65                android:name="android.support.PARENT_ACTIVITY"
+65-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:24:17-63
+66                android:value="com.example.android.androidProject.MainActivity" />
+66-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:25:17-80
+67        </activity>
+68
+69        <service android:name="com.example.android.androidProject.MyService" />
+69-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:62:9-46
+69-->C:\Users\User\Desktop\Lebanese_cuisine\app\src\main\AndroidManifest.xml:62:18-43
+70
+71        <activity
+71-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:24:9-31:50
+72            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+72-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:25:13-85
+73            android:excludeFromRecents="true"
+73-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:26:13-46
+74            android:exported="true"
+74-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:27:13-36
+75            android:launchMode="singleTask"
+75-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:28:13-44
+76            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+76-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:29:13-102
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:30:13-72
+78
+79        <service
+79-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:33:9-39:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:34:13-84
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\77a6e805633b545236f3c7029a50f43f\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:35:13-37
+83            <meta-data
+83-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:36:13-38:85
+84                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+84-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:37:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\490f734bda60621c9fe70511028254f9\jetified-firebase-auth-19.3.2\AndroidManifest.xml:38:17-82
+86        </service>
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\adfab9d693eaabc0484a072e7d90dd4d\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\adfab9d693eaabc0484a072e7d90dd4d\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\adfab9d693eaabc0484a072e7d90dd4d\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\adfab9d693eaabc0484a072e7d90dd4d\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\77a6e805633b545236f3c7029a50f43f\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\77a6e805633b545236f3c7029a50f43f\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+95            android:authorities="com.example.android.androidProject.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\77a6e805633b545236f3c7029a50f43f\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\77a6e805633b545236f3c7029a50f43f\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:19.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\77a6e805633b545236f3c7029a50f43f\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\4598b34922394bbc646da3b97e4fe2cb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\4598b34922394bbc646da3b97e4fe2cb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\4598b34922394bbc646da3b97e4fe2cb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+102    </application>
+103
+104</manifest>

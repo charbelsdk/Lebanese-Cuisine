@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lebanese Cuisine</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro_text">Lebanese Food</string>
+    <string name="change_dessert">Change dessert</string>
+    <string name="name_label_text">Name</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="title_activity_order">Subscribe Activity</string>
+    <string name="title_activity_settings">Settings Activity</string>
+    <string name="settings">Settings</string>
+    <string name="taboule_is_a_very_delicious_plate">Taboule is a very delicious plate.</string>
+    <string name="kafta_is_often_grilled_in_the_summertime_but_also_can_be_made_indoors">Kafta is often grilled in the summertime but, also can be made indoors.</string>
+    <string name="hommos_is_dip_spread_or_savory_dish_made_from_cooked_mashed_chickpeas">Hommos is dip, spread, or savory dish made from cooked, mashed chickpeas.</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="email">Email</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="otp_verification_using_firebase">OTP Verification Using Firebase</string>
+    <string name="we_will_send_you_a_one_time_password_on_this_mobile_number">We will send you a One Time Password on this mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="_961">+961-</string>
+    <string name="_123456789">123456789</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_the_otp_send_to_you">Enter the OTP send to you</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP</string>
+
+
+</resources>

@@ -1,0 +1,23 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.androidProject.MainActivity">
+    <item
+        android:id="@+id/action_pause"
+        android:icon="@drawable/ic_baseline_pause_24"
+        android:orderInCategory="10"
+        android:title="@string/play"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_play"
+        android:icon="@drawable/ic_baseline_play_arrow_24"
+        android:orderInCategory="20"
+        android:title="@string/pause"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="50"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+</menu>

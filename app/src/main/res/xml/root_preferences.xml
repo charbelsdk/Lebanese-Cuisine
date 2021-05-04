@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory app:title="Enable Night Mode">
+        <CheckBoxPreference
+            app:title="Night Mode"
+            app:key="NIGHT"
+            app:defaultValue="false"
+            app:summaryOff="Night Mode Deactivited"
+            app:summaryOn="Night Mode Activited"/>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Orientation">
+        <ListPreference
+            app:title="Orientation"
+            app:key="ORIENTATION"
+            app:defaultValue="false"
+            app:entryValues="@array/orientation_items_values"
+            app:entries="@array/orientation_items"/>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Newsletter">
+        <ListPreference
+            app:title="Receive Option"
+            app:defaultValue="false"
+            app:entryValues="@array/newsletters_items_values"
+            app:entries="@array/newsletters_items"
+            app:key="NEWSLETTER"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

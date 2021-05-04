@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">918211502610-lutc9qufdi92o2o83be09pvtrqdr8k1r.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">918211502610</string>
+    <string name="google_api_key" translatable="false">AIzaSyDJBSW72PnMTZ-KHKyom1pmQ8WnHnp_D5M</string>
+    <string name="google_app_id" translatable="false">1:918211502610:android:16f4f0bcd4b987126f2ecb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDJBSW72PnMTZ-KHKyom1pmQ8WnHnp_D5M</string>
+    <string name="google_storage_bucket" translatable="false">lebanese-cuisine.appspot.com</string>
+    <string name="project_id" translatable="false">lebanese-cuisine</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "570790004735",
+    "project_id": "lebanese-food",
+    "storage_bucket": "lebanese-food.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570790004735:android:f973d7d87e00ffc99a49ca",
+        "android_client_info": {
+          "package_name": "com.example.android.androidProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570790004735-skg2qdvbvu6d1dtcvru43fi9ns10q1m8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.androidProject",
+            "certificate_hash": "1b42964d1c670f552fe81dae948f808ad59d824a"
+          }
+        },
+        {
+          "client_id": "570790004735-hjfqke707r0d791uq2fdfvg365uc82np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzT6UjU0iVTjuW_CUL_a4K22INqHuVNAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570790004735-hjfqke707r0d791uq2fdfvg365uc82np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
